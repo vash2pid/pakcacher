@@ -25,10 +25,11 @@ If the original files are lost or unrecoveralbe in any way, it's advisable to ve
 This tool does not bypass any anti-cheat mechanism of the game and does not guarantee that the recreated *.cache
 will not trigger an AVF error.
 
-
 Known Issues
 ------------
-Recreating the *.cache file for default_animation.pak and default_video_5.pak files does work correctlty with the current version. 
-It will trigger a crash on start up, cache file for default_animation.pak and default_video_5.pak seems to be different than the other pak files.
+Recreating the *.cache file for default_animation.pak file will does work correctlty with the current version. 
+It will trigger a crash on start up, I'd advise not to craete one for the default_animation.pak file with this tool with the currect version.
+Cache file header structure for default_animation.pak is seems to be different than the other pak files.
 
-
+There may have some issues if using it on a pak file that are modified in some other way. 
+If you're using zip archiving tools like 7zip or WinRar, it should be fine.
