@@ -3,7 +3,7 @@
 The software is used to create a *.cache file for Warhammer 40,000: Space Marine 2 *.pak files.
 It can also create a *.header file for zipped audio files.
 
-This is achived by reading each file's header information in the acrhive file and recreating the .cache/.header file base on thar information.
+This is achived by reading each file's header information in the acrhive file and recreating the .cache/.header file base on that information.
 
 Requirements
 ------------
@@ -27,9 +27,8 @@ will not trigger an AVF error.
 
 Known Issues
 ------------
-Recreating the *.cache file for default_animation.pak file will does work correctlty with the current version. 
-It will trigger a crash on start up, I'd advise not to craete one for the default_animation.pak file with this tool with the currect version.
-Cache file header structure for default_animation.pak is seems to be different than the other pak files.
+Recreating the *.cache file for default_animation.pak and default_video_5.pak files does work correctlty with the current version. 
+It will trigger a crash on start up, cache file for default_animation.pak and default_video_5.pak seems to be different than the other pak files.
 
 There may have some issues if using it on a pak file that are modified in some other way. 
-If you're using zip archiving tools like 7zip or WinRar, it should be fine.
+If using zip archiving tools like 7zip or WinRar, it should be fine.
